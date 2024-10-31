@@ -1,0 +1,266 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+div#wpcontent{
+    background: #f9f9f9;
+}
+.order_management_woo span#deliverydate input {
+    background: transparent;
+}
+.order_management_woo .total-orders-count {
+    font-weight: bold;
+}
+.order_management_woo div.dt-buttons{
+    padding: 0 40px;
+}
+.order_management_woo table#normalTable{
+    margin: 20px 0 !important;
+    padding: 20px 0 !important;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100% !important;
+}
+.order_management_woo thead,
+.order_management_woo tfoot {
+    background: #1d2327;
+    color: #fff;
+}
+.order_management_woo #poststuff #post-body.columns-2{
+    margin-right: 0;
+}
+.order_management_woo #poststuff #post-body.metabox-holder.columns-2{
+    margin: 0;
+}
+.order_management_woo #poststuff #post-body #display_name{
+    width: initial;
+}
+.order_management_woo div#normalTable_wrapper{
+    margin: 20px 5px;
+}
+.order_management_woo div#normalTable_wrapper div#normalTable_length{
+    float: left;
+}
+.order_management_woo div#normalTable_wrapper div#normalTable_filter{
+    float: right;
+}
+.order_management_woo table#normalTable .t-orders{
+    width: 200px!important;
+    max-width: 200px;
+    word-break: break-word;
+}
+.order_management_woo span.date-to-sep{
+    margin: 0 10px;
+}
+.order_management_woo .form-group label{
+    min-width: 120px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.order_management_woo input.btn.button{
+    width: 102px;
+    font-size: 15px;
+}
+.order_management_woo td.t-orders,
+.order_management_woo td.t-quantity,
+.order_management_woo td.t-gross-sales{
+    text-align: center;
+}
+.order_management_woo th.t-gross-sales,
+.order_management_woo th.t-quantity,
+.order_management_woo th.t-orders{
+    padding: 0 10px;
+    text-align: center;
+}
+.order_management_woo .form-group input.form-input.form-control.gbc{
+    width:20px;
+    height:20px;
+    margin-top:-5px;
+    margin-left:10px;
+    outline: none;
+}
+.order_management_woo .form-group input.form-input.form-control.gbc::before{
+    width:20px;
+    height:20px;
+    display:block;
+}
+.order_management_woo tr.cat-main-row{
+    text-align: center;
+    margin: 10px 0 10px;
+    padding: 10px 0 10px;
+    height: 60px;
+}
+.order_management_woo td.cat-main-col{
+    margin: 10px 0 10px;
+    padding: 10px 0 10px;
+    height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+}
+.order_management_woo .dt-length {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+.order_management_woo div.dt-buttons {
+    display: inline-block;
+    vertical-align: top;
+    width: 380px;
+}
+.order_management_woo .dt-search {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    float: right;
+}
+.order_management_woo .dt-length label {
+    margin: 0 8px;
+}
+.order_management_woo div.dt-container select.dt-input {
+    max-width: 60px;
+    width: 100%;
+    line-height: 1.4;
+    min-height: 20px;
+}
+.order_management_woo .form-group {
+    padding: 10px 0;
+}
+.order_management_woo .dt-paging {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #1d2327;
+    color: #fff;
+    padding: 10px 0;
+}
+.order_management_woo div.dt-container .dt-paging .dt-paging-button {
+    color: #fff!important;
+}
+.order_management_woo div.dt-container .dt-paging .dt-paging-button:hover {
+    color: #fff !important;
+}
+.order_management_woo div.dt-container .dt-info {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.order_management_woo a{
+    text-decoration: 0;
+}
+.order_management_woo button.dt-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.order_management_woo a.button.btn,
+.order_management_woo input.btn.button {
+    line-height: 1.4;
+    font-size: 13px;
+    padding: 4px 10px;
+    margin-right: 10px;
+}
+.order_management_woo a.button.btn:hover,
+.order_management_woo input.btn.button:hover {
+    border: 1px solid #666;
+    background-color: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgba(153, 153, 153, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+.order_management_woo .dt-search label {
+    margin-right: 10px;
+}
+.order_management_woo .dt-search input {
+    min-height: 20px;
+    line-height: 1.4;
+}
+.order_management_woo .select2-container{
+    width: 630px!important;
+}
+.order_management_woo  .select2-container .select2-selection--multiple .select2-selection__rendered {
+    display: block;
+}
+.order_management_woo  .select2-container--default .select2-selection--multiple {
+    background-color: transparent;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-header {
+    border: none;
+    padding: 2px 0;
+}
+.ui-datepicker .ui-datepicker-title {
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    width: 25px;
+    height: 25px;
+}
+.ui-datepicker th {
+    font-size: 14px;
+}
+.ui-datepicker td {
+    font-size: 14px;
+}
+@media(max-width:768px){
+    .order_management_woo a.button.btn, .order_management_woo input.btn.button {
+        min-height: 30px;
+        display: block;
+        text-align: center;
+        max-width: 190px;
+        margin: 10px auto;
+    }
+    .order_management_woo span#deliverydate input {
+        display: block;
+        width: 95%;
+        max-width: 420px;
+        margin: 10px auto;
+    }
+    .order_management_woo span.date-to-sep {
+        display: block;
+        text-align: center;
+    }
+    .order_management_woo .select2-container {
+        width: 95%!important;
+        max-width: 420px;
+        margin: 10px auto;
+    }
+    .order_management_woo .form-group {
+        text-align: center;
+    }
+    .meta-box-sortables.ui-sortable {
+        text-align: center;
+    }
+    .order_management_woo .dt-length {
+        display: block;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .order_management_woo div.dt-buttons {
+        display: block;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .order_management_woo .dt-search {
+        display: block;
+        width: 95%;
+        margin: 10px auto;
+    }
+}
